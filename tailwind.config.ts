@@ -26,6 +26,7 @@ export default {
     extend: {
       colors: {
         background: '#2B2B2B',
+        container: '#343434',
         // 또는
         dark: {
           base: '#2B2B2B'
