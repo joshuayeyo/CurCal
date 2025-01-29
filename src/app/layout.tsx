@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 const pretendard = localFont({
   src: './fonts/PretendardVariable.woff2',
   weight: '45 920',
@@ -21,7 +23,8 @@ export default function RootLayout({
           <main className="mx-8 py-4">
             {children}
           </main>
-        </div>
+         </div>
+         <Footer />
       </body>
     </html>
   );
