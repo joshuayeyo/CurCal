@@ -28,10 +28,6 @@ export default {
         background: '#2B2B2B',
         container: '#343434',
         basic: "#EBEBEB",
-        // 또는
-        dark: {
-          base: '#2B2B2B'
-        }
       },
     },
   },
