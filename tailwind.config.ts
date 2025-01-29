@@ -11,8 +11,10 @@ export default {
       "title": "34px",
       "label-lg": "34px",
       "label-md": "28px",
+      "xs": "20px",
     },
     fontWeight: {
+      extralight: "200",
       light: "300",
       normal: "400",
       medium: "500",
